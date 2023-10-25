@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="sim" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1000000000fs"></ZoomEndTime>
+      <Cursor1Time time="175000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="131"></NameColumnWidth>
+      <ValueColumnWidth column_width="146"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/sim/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/switch" type="array">
+      <obj_property name="ElementShortName">switch[7:0]</obj_property>
+      <obj_property name="ObjectShortName">switch[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/led" type="array">
+      <obj_property name="ElementShortName">led[7:0]</obj_property>
+      <obj_property name="ObjectShortName">led[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/tube_en" type="array">
+      <obj_property name="ElementShortName">tube_en[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tube_en[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/seg_led1" type="array">
+      <obj_property name="ElementShortName">seg_led1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">seg_led1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/seg_led2" type="array">
+      <obj_property name="ElementShortName">seg_led2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">seg_led2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/uart_rx" type="logic">
+      <obj_property name="ElementShortName">uart_rx</obj_property>
+      <obj_property name="ObjectShortName">uart_rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/uart_tx" type="logic">
+      <obj_property name="ElementShortName">uart_tx</obj_property>
+      <obj_property name="ObjectShortName">uart_tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/bt_rx" type="logic">
+      <obj_property name="ElementShortName">bt_rx</obj_property>
+      <obj_property name="ObjectShortName">bt_rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/bt_tx" type="logic">
+      <obj_property name="ElementShortName">bt_tx</obj_property>
+      <obj_property name="ObjectShortName">bt_tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/top/cpu/inst_addr" type="array">
+      <obj_property name="ElementShortName">inst_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/top/cpu/inst_data" type="array">
+      <obj_property name="ElementShortName">inst_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/top/cpu/mem_addr" type="array">
+      <obj_property name="ElementShortName">mem_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/top/cpu/mem_wd" type="array">
+      <obj_property name="ElementShortName">mem_wd[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_wd[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/top/cpu/mem_rd" type="array">
+      <obj_property name="ElementShortName">mem_rd[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_rd[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/top/cpu/mem_ctrl" type="logic">
+      <obj_property name="ElementShortName">mem_ctrl</obj_property>
+      <obj_property name="ObjectShortName">mem_ctrl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/top/cpu/RD" type="array">
+      <obj_property name="ElementShortName">RD[15:0]</obj_property>
+      <obj_property name="ObjectShortName">RD[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/top/cpu/RS" type="array">
+      <obj_property name="ElementShortName">RS[15:0]</obj_property>
+      <obj_property name="ObjectShortName">RS[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/top/cpu/IMM" type="array">
+      <obj_property name="ElementShortName">IMM[15:0]</obj_property>
+      <obj_property name="ObjectShortName">IMM[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/top/cpu/DRAMdata" type="array">
+      <obj_property name="ElementShortName">DRAMdata[15:0]</obj_property>
+      <obj_property name="ObjectShortName">DRAMdata[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/top/cpu/WB" type="array">
+      <obj_property name="ElementShortName">WB[15:0]</obj_property>
+      <obj_property name="ObjectShortName">WB[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/top/cpu/ALUout" type="array">
+      <obj_property name="ElementShortName">ALUout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUout[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/top/cpu/CMPout" type="array">
+      <obj_property name="ElementShortName">CMPout[1:0]</obj_property>
+      <obj_property name="ObjectShortName">CMPout[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/top/cpu/ALUop" type="array">
+      <obj_property name="ElementShortName">ALUop[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUop[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim/top/cpu/Id/Reg/rf" type="array">
+      <obj_property name="ElementShortName">rf[7:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">rf[7:0][15:0]</obj_property>
+   </wvobject>
+</wave_config>

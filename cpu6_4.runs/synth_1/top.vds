@@ -1,0 +1,867 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Oct 25 15:42:51 2023
+# Process ID: 15492
+# Current directory: F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.runs/synth_1
+# Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.runs/synth_1/top.vds
+# Journal file: F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
+Command: synth_design -top top -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 9512 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 344.375 ; gain = 98.516
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/top.v:3]
+INFO: [Synth 8-638] synthesizing module 'CPU' [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/cpu.v:3]
+INFO: [Synth 8-638] synthesizing module 'crtl' [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/crtl.v:3]
+INFO: [Synth 8-256] done synthesizing module 'crtl' (1#1) [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/crtl.v:3]
+INFO: [Synth 8-638] synthesizing module 'IF' [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/IF.v:1]
+INFO: [Synth 8-256] done synthesizing module 'IF' (2#1) [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/IF.v:1]
+INFO: [Synth 8-638] synthesizing module 'ID' [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/ID.v:1]
+INFO: [Synth 8-638] synthesizing module 'REG' [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/REG.v:3]
+INFO: [Synth 8-256] done synthesizing module 'REG' (3#1) [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/REG.v:3]
+INFO: [Synth 8-256] done synthesizing module 'ID' (4#1) [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/ID.v:1]
+INFO: [Synth 8-638] synthesizing module 'EX' [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/EX.v:3]
+INFO: [Synth 8-638] synthesizing module 'ALU' [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/ALU.v:3]
+WARNING: [Synth 8-3848] Net sraOut in module/entity ALU does not have driver. [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/ALU.v:22]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (5#1) [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/ALU.v:3]
+INFO: [Synth 8-638] synthesizing module 'CMP' [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/CMP.v:3]
+INFO: [Synth 8-256] done synthesizing module 'CMP' (6#1) [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/CMP.v:3]
+INFO: [Synth 8-256] done synthesizing module 'EX' (7#1) [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/EX.v:3]
+INFO: [Synth 8-638] synthesizing module 'WB' [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/WB.v:3]
+INFO: [Synth 8-256] done synthesizing module 'WB' (8#1) [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/WB.v:3]
+INFO: [Synth 8-256] done synthesizing module 'CPU' (9#1) [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/cpu.v:3]
+INFO: [Synth 8-638] synthesizing module 'BUS' [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/BUS.v:1]
+INFO: [Synth 8-638] synthesizing module 'inst_mem' [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.runs/synth_1/.Xil/Vivado-15492-DESKTOP-0TSH46O/realtime/inst_mem_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'inst_mem' (10#1) [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.runs/synth_1/.Xil/Vivado-15492-DESKTOP-0TSH46O/realtime/inst_mem_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'deviceclk' [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/deviceclk.v:6]
+	Parameter EXTEND bound to: 200000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'deviceclk' (11#1) [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/deviceclk.v:6]
+INFO: [Synth 8-638] synthesizing module 'RAM' [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/RAM.v:2]
+INFO: [Synth 8-638] synthesizing module 'data_mem' [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.runs/synth_1/.Xil/Vivado-15492-DESKTOP-0TSH46O/realtime/data_mem_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'data_mem' (12#1) [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.runs/synth_1/.Xil/Vivado-15492-DESKTOP-0TSH46O/realtime/data_mem_stub.v:6]
+WARNING: [Synth 8-689] width (16) of port connection 'a' does not match port width (10) of module 'data_mem' [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/RAM.v:48]
+INFO: [Synth 8-256] done synthesizing module 'RAM' (13#1) [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/RAM.v:2]
+INFO: [Synth 8-638] synthesizing module 'LED' [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/led.v:2]
+INFO: [Synth 8-638] synthesizing module 'Buffer' [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/Buffer.v:1]
+	Parameter WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Buffer' (14#1) [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/Buffer.v:1]
+INFO: [Synth 8-638] synthesizing module 'InCtrl_led' [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/Inctrl_led.v:1]
+INFO: [Synth 8-256] done synthesizing module 'InCtrl_led' (15#1) [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/Inctrl_led.v:1]
+WARNING: [Synth 8-3848] Net data_output in module/entity LED does not have driver. [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/led.v:19]
+INFO: [Synth 8-256] done synthesizing module 'LED' (16#1) [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/led.v:2]
+INFO: [Synth 8-638] synthesizing module 'Switch' [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/Switch.v:2]
+INFO: [Synth 8-638] synthesizing module 'OutCtrl_Switch' [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/OutCtrl_Switch.v:1]
+INFO: [Synth 8-256] done synthesizing module 'OutCtrl_Switch' (17#1) [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/OutCtrl_Switch.v:1]
+WARNING: [Synth 8-689] width (16) of port connection 'data' does not match port width (17) of module 'OutCtrl_Switch' [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/Switch.v:78]
+INFO: [Synth 8-256] done synthesizing module 'Switch' (18#1) [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/Switch.v:2]
+INFO: [Synth 8-638] synthesizing module 'Tube' [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/digit_tube.v:2]
+INFO: [Synth 8-638] synthesizing module 'InCtrl_tube' [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/Inctrl_tube.v:1]
+INFO: [Synth 8-256] done synthesizing module 'InCtrl_tube' (19#1) [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/Inctrl_tube.v:1]
+WARNING: [Synth 8-3848] Net data_output in module/entity Tube does not have driver. [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/digit_tube.v:33]
+INFO: [Synth 8-256] done synthesizing module 'Tube' (20#1) [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/digit_tube.v:2]
+INFO: [Synth 8-638] synthesizing module 'UART' [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/UART.v:2]
+	Parameter CLK_FREQ bound to: 100000000 - type: integer 
+	Parameter UART_BPS bound to: 115200 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'uart_send' [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/uart_send.v:1]
+	Parameter CLK_FREQ bound to: 100000000 - type: integer 
+	Parameter UART_BPS bound to: 115200 - type: integer 
+	Parameter BPS_CNT bound to: 868 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'uart_send' (21#1) [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/uart_send.v:1]
+WARNING: [Synth 8-689] width (8) of port connection 'uart_din' does not match port width (32) of module 'uart_send' [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/UART.v:79]
+INFO: [Synth 8-638] synthesizing module 'uart_recv' [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/uart_recv.v:1]
+	Parameter CLK_FREQ bound to: 100000000 - type: integer 
+	Parameter UART_BPS bound to: 115200 - type: integer 
+	Parameter BPS_CNT bound to: 868 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'uart_recv' (22#1) [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/uart_recv.v:1]
+INFO: [Synth 8-256] done synthesizing module 'UART' (23#1) [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/UART.v:2]
+INFO: [Synth 8-638] synthesizing module 'UART__parameterized0' [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/UART.v:2]
+	Parameter CLK_FREQ bound to: 100000000 - type: integer 
+	Parameter UART_BPS bound to: 9600 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'uart_send__parameterized0' [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/uart_send.v:1]
+	Parameter CLK_FREQ bound to: 100000000 - type: integer 
+	Parameter UART_BPS bound to: 9600 - type: integer 
+	Parameter BPS_CNT bound to: 10416 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'uart_send__parameterized0' (23#1) [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/uart_send.v:1]
+WARNING: [Synth 8-689] width (8) of port connection 'uart_din' does not match port width (32) of module 'uart_send__parameterized0' [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/UART.v:79]
+INFO: [Synth 8-638] synthesizing module 'uart_recv__parameterized0' [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/uart_recv.v:1]
+	Parameter CLK_FREQ bound to: 100000000 - type: integer 
+	Parameter UART_BPS bound to: 9600 - type: integer 
+	Parameter BPS_CNT bound to: 10416 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'uart_recv__parameterized0' (23#1) [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/uart_recv.v:1]
+INFO: [Synth 8-256] done synthesizing module 'UART__parameterized0' (23#1) [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/UART.v:2]
+INFO: [Synth 8-638] synthesizing module 'Timer' [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/Timer.v:2]
+INFO: [Synth 8-638] synthesizing module 'counter' [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/counter.v:1]
+INFO: [Synth 8-256] done synthesizing module 'counter' (24#1) [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/counter.v:1]
+WARNING: [Synth 8-3848] Net data_output in module/entity Timer does not have driver. [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/Timer.v:20]
+INFO: [Synth 8-256] done synthesizing module 'Timer' (25#1) [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/Timer.v:2]
+INFO: [Synth 8-256] done synthesizing module 'BUS' (26#1) [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/BUS.v:1]
+INFO: [Synth 8-256] done synthesizing module 'top' (27#1) [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/top.v:3]
+WARNING: [Synth 8-3331] design Timer has unconnected port deviceClk
+WARNING: [Synth 8-3331] design Timer has unconnected port addr[15]
+WARNING: [Synth 8-3331] design Timer has unconnected port addr[14]
+WARNING: [Synth 8-3331] design Timer has unconnected port addr[13]
+WARNING: [Synth 8-3331] design Timer has unconnected port addr[12]
+WARNING: [Synth 8-3331] design Timer has unconnected port addr[11]
+WARNING: [Synth 8-3331] design Timer has unconnected port addr[10]
+WARNING: [Synth 8-3331] design Timer has unconnected port addr[9]
+WARNING: [Synth 8-3331] design Timer has unconnected port addr[8]
+WARNING: [Synth 8-3331] design Timer has unconnected port addr[7]
+WARNING: [Synth 8-3331] design Timer has unconnected port addr[6]
+WARNING: [Synth 8-3331] design Timer has unconnected port addr[5]
+WARNING: [Synth 8-3331] design Timer has unconnected port addr[4]
+WARNING: [Synth 8-3331] design Timer has unconnected port addr[3]
+WARNING: [Synth 8-3331] design Timer has unconnected port addr[2]
+WARNING: [Synth 8-3331] design Timer has unconnected port addr[1]
+WARNING: [Synth 8-3331] design Timer has unconnected port addr[0]
+WARNING: [Synth 8-3331] design uart_send__parameterized0 has unconnected port uart_din[31]
+WARNING: [Synth 8-3331] design uart_send__parameterized0 has unconnected port uart_din[30]
+WARNING: [Synth 8-3331] design uart_send__parameterized0 has unconnected port uart_din[29]
+WARNING: [Synth 8-3331] design uart_send__parameterized0 has unconnected port uart_din[28]
+WARNING: [Synth 8-3331] design uart_send__parameterized0 has unconnected port uart_din[27]
+WARNING: [Synth 8-3331] design uart_send__parameterized0 has unconnected port uart_din[26]
+WARNING: [Synth 8-3331] design uart_send__parameterized0 has unconnected port uart_din[25]
+WARNING: [Synth 8-3331] design uart_send__parameterized0 has unconnected port uart_din[24]
+WARNING: [Synth 8-3331] design uart_send__parameterized0 has unconnected port uart_din[23]
+WARNING: [Synth 8-3331] design uart_send__parameterized0 has unconnected port uart_din[22]
+WARNING: [Synth 8-3331] design uart_send__parameterized0 has unconnected port uart_din[21]
+WARNING: [Synth 8-3331] design uart_send__parameterized0 has unconnected port uart_din[20]
+WARNING: [Synth 8-3331] design uart_send__parameterized0 has unconnected port uart_din[19]
+WARNING: [Synth 8-3331] design uart_send__parameterized0 has unconnected port uart_din[18]
+WARNING: [Synth 8-3331] design uart_send__parameterized0 has unconnected port uart_din[17]
+WARNING: [Synth 8-3331] design uart_send__parameterized0 has unconnected port uart_din[16]
+WARNING: [Synth 8-3331] design uart_send__parameterized0 has unconnected port uart_din[15]
+WARNING: [Synth 8-3331] design uart_send__parameterized0 has unconnected port uart_din[14]
+WARNING: [Synth 8-3331] design uart_send__parameterized0 has unconnected port uart_din[13]
+WARNING: [Synth 8-3331] design uart_send__parameterized0 has unconnected port uart_din[12]
+WARNING: [Synth 8-3331] design uart_send__parameterized0 has unconnected port uart_din[11]
+WARNING: [Synth 8-3331] design uart_send__parameterized0 has unconnected port uart_din[10]
+WARNING: [Synth 8-3331] design uart_send__parameterized0 has unconnected port uart_din[9]
+WARNING: [Synth 8-3331] design uart_send__parameterized0 has unconnected port uart_din[8]
+WARNING: [Synth 8-3331] design UART__parameterized0 has unconnected port deviceClk
+WARNING: [Synth 8-3331] design UART__parameterized0 has unconnected port addr[15]
+WARNING: [Synth 8-3331] design UART__parameterized0 has unconnected port addr[14]
+WARNING: [Synth 8-3331] design UART__parameterized0 has unconnected port addr[13]
+WARNING: [Synth 8-3331] design UART__parameterized0 has unconnected port addr[12]
+WARNING: [Synth 8-3331] design UART__parameterized0 has unconnected port addr[11]
+WARNING: [Synth 8-3331] design UART__parameterized0 has unconnected port addr[10]
+WARNING: [Synth 8-3331] design UART__parameterized0 has unconnected port addr[9]
+WARNING: [Synth 8-3331] design UART__parameterized0 has unconnected port addr[8]
+WARNING: [Synth 8-3331] design UART__parameterized0 has unconnected port addr[7]
+WARNING: [Synth 8-3331] design UART__parameterized0 has unconnected port addr[6]
+WARNING: [Synth 8-3331] design UART__parameterized0 has unconnected port addr[5]
+WARNING: [Synth 8-3331] design UART__parameterized0 has unconnected port addr[4]
+WARNING: [Synth 8-3331] design UART__parameterized0 has unconnected port addr[3]
+WARNING: [Synth 8-3331] design UART__parameterized0 has unconnected port addr[2]
+WARNING: [Synth 8-3331] design UART__parameterized0 has unconnected port addr[1]
+WARNING: [Synth 8-3331] design UART__parameterized0 has unconnected port addr[0]
+WARNING: [Synth 8-3331] design uart_send has unconnected port uart_din[31]
+WARNING: [Synth 8-3331] design uart_send has unconnected port uart_din[30]
+WARNING: [Synth 8-3331] design uart_send has unconnected port uart_din[29]
+WARNING: [Synth 8-3331] design uart_send has unconnected port uart_din[28]
+WARNING: [Synth 8-3331] design uart_send has unconnected port uart_din[27]
+WARNING: [Synth 8-3331] design uart_send has unconnected port uart_din[26]
+WARNING: [Synth 8-3331] design uart_send has unconnected port uart_din[25]
+WARNING: [Synth 8-3331] design uart_send has unconnected port uart_din[24]
+WARNING: [Synth 8-3331] design uart_send has unconnected port uart_din[23]
+WARNING: [Synth 8-3331] design uart_send has unconnected port uart_din[22]
+WARNING: [Synth 8-3331] design uart_send has unconnected port uart_din[21]
+WARNING: [Synth 8-3331] design uart_send has unconnected port uart_din[20]
+WARNING: [Synth 8-3331] design uart_send has unconnected port uart_din[19]
+WARNING: [Synth 8-3331] design uart_send has unconnected port uart_din[18]
+WARNING: [Synth 8-3331] design uart_send has unconnected port uart_din[17]
+WARNING: [Synth 8-3331] design uart_send has unconnected port uart_din[16]
+WARNING: [Synth 8-3331] design uart_send has unconnected port uart_din[15]
+WARNING: [Synth 8-3331] design uart_send has unconnected port uart_din[14]
+WARNING: [Synth 8-3331] design uart_send has unconnected port uart_din[13]
+WARNING: [Synth 8-3331] design uart_send has unconnected port uart_din[12]
+WARNING: [Synth 8-3331] design uart_send has unconnected port uart_din[11]
+WARNING: [Synth 8-3331] design uart_send has unconnected port uart_din[10]
+WARNING: [Synth 8-3331] design uart_send has unconnected port uart_din[9]
+WARNING: [Synth 8-3331] design uart_send has unconnected port uart_din[8]
+WARNING: [Synth 8-3331] design UART has unconnected port deviceClk
+WARNING: [Synth 8-3331] design UART has unconnected port addr[15]
+WARNING: [Synth 8-3331] design UART has unconnected port addr[14]
+WARNING: [Synth 8-3331] design UART has unconnected port addr[13]
+WARNING: [Synth 8-3331] design UART has unconnected port addr[12]
+WARNING: [Synth 8-3331] design UART has unconnected port addr[11]
+WARNING: [Synth 8-3331] design UART has unconnected port addr[10]
+WARNING: [Synth 8-3331] design UART has unconnected port addr[9]
+WARNING: [Synth 8-3331] design UART has unconnected port addr[8]
+WARNING: [Synth 8-3331] design UART has unconnected port addr[7]
+WARNING: [Synth 8-3331] design UART has unconnected port addr[6]
+WARNING: [Synth 8-3331] design UART has unconnected port addr[5]
+WARNING: [Synth 8-3331] design UART has unconnected port addr[4]
+WARNING: [Synth 8-3331] design UART has unconnected port addr[3]
+WARNING: [Synth 8-3331] design UART has unconnected port addr[2]
+WARNING: [Synth 8-3331] design UART has unconnected port addr[1]
+WARNING: [Synth 8-3331] design UART has unconnected port addr[0]
+WARNING: [Synth 8-3331] design Tube has unconnected port addr[15]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 395.184 ; gain = 149.324
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 395.184 ; gain = 149.324
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.runs/synth_1/.Xil/Vivado-15492-DESKTOP-0TSH46O/dcp2/data_mem_in_context.xdc] for cell 'bus/ram/DataMem'
+Finished Parsing XDC File [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.runs/synth_1/.Xil/Vivado-15492-DESKTOP-0TSH46O/dcp2/data_mem_in_context.xdc] for cell 'bus/ram/DataMem'
+Parsing XDC File [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.runs/synth_1/.Xil/Vivado-15492-DESKTOP-0TSH46O/dcp3/inst_mem_in_context.xdc] for cell 'bus/irom'
+Finished Parsing XDC File [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.runs/synth_1/.Xil/Vivado-15492-DESKTOP-0TSH46O/dcp3/inst_mem_in_context.xdc] for cell 'bus/irom'
+Parsing XDC File [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/constrs_1/new/xdc.xdc]
+WARNING: [Vivado 12-584] No ports matched 'uart_rxd'. [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/constrs_1/new/xdc.xdc:94]
+WARNING: [Vivado 12-584] No ports matched 'uart_txd'. [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/constrs_1/new/xdc.xdc:95]
+WARNING: [Vivado 12-584] No ports matched 'uart_rxd'. [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/constrs_1/new/xdc.xdc:96]
+WARNING: [Vivado 12-584] No ports matched 'uart_txd'. [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/constrs_1/new/xdc.xdc:97]
+Finished Parsing XDC File [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/constrs_1/new/xdc.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/constrs_1/new/xdc.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/top_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/constrs_1/new/xdc.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 760.777 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 760.777 ; gain = 514.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 760.777 ; gain = 514.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for bus/irom. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bus/ram/DataMem. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 760.777 ; gain = 514.918
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "PCSel" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "PCSel" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "rf_reg[7]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "rf_reg[6]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "rf_reg[5]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "rf_reg[4]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "rf_reg[3]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "rf_reg[2]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "rf_reg[1]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "rf_reg[0]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element cnt_reg was removed.  [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/deviceclk.v:15]
+INFO: [Synth 8-5546] ROM "tx_cnt" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element tx_cnt_reg was removed.  [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/uart_send.v:86]
+INFO: [Synth 8-5546] ROM "rx_cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "uart_done" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element rx_cnt_reg was removed.  [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/uart_recv.v:85]
+INFO: [Synth 8-5546] ROM "tx_cnt" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element tx_cnt_reg was removed.  [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/uart_send.v:86]
+INFO: [Synth 8-5546] ROM "rx_cnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "uart_done" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element rx_cnt_reg was removed.  [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/uart_recv.v:85]
+WARNING: [Synth 8-6014] Unused sequential element counter_reg was removed.  [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/counter.v:9]
+INFO: [Synth 8-5544] ROM "BG" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 760.777 ; gain = 514.918
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 3     
+	   2 Input     14 Bit       Adders := 2     
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 4     
++---XORs : 
+	   2 Input     16 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 21    
+	                8 Bit    Registers := 7     
+	                4 Bit    Registers := 4     
+	                1 Bit    Registers := 19    
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 6     
+	   4 Input     16 Bit        Muxes := 1     
+	   9 Input     16 Bit        Muxes := 2     
+	   2 Input     14 Bit        Muxes := 4     
+	   2 Input     10 Bit        Muxes := 4     
+	   2 Input      8 Bit        Muxes := 10    
+	   2 Input      7 Bit        Muxes := 1     
+	   7 Input      7 Bit        Muxes := 1     
+	   9 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 4     
+	   2 Input      3 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 22    
+	  17 Input      1 Bit        Muxes := 6     
+	   4 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 4     
+	  12 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module crtl 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	  17 Input      1 Bit        Muxes := 6     
+Module IF 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+	   4 Input     16 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 1     
+Module REG 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 8     
++---Muxes : 
+	   9 Input     16 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 8     
+Module ID 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+Module ALU 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 2     
++---XORs : 
+	   2 Input     16 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module CMP 
+Detailed RTL Component Info : 
++---Muxes : 
+	   3 Input      2 Bit        Muxes := 1     
+Module EX 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+Module WB 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module Buffer 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+Module InCtrl_tube 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   9 Input      4 Bit        Muxes := 1     
+Module uart_send 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	  12 Input      1 Bit        Muxes := 1     
+Module uart_recv 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 1     
+Module uart_send__parameterized0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     14 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     14 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	  12 Input      1 Bit        Muxes := 1     
+Module uart_recv__parameterized0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     14 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     14 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 1     
+Module BUS 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+	   7 Input      7 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element deviceCLK/cnt_reg was removed.  [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/deviceclk.v:15]
+WARNING: [Synth 8-6014] Unused sequential element UART/u_uart_send/tx_cnt_reg was removed.  [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/uart_send.v:86]
+WARNING: [Synth 8-6014] Unused sequential element UART/u_uart_recv/rx_cnt_reg was removed.  [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/uart_recv.v:85]
+WARNING: [Synth 8-6014] Unused sequential element UART_bt/u_uart_send/tx_cnt_reg was removed.  [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/uart_send.v:86]
+WARNING: [Synth 8-6014] Unused sequential element UART_bt/u_uart_recv/rx_cnt_reg was removed.  [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/uart_recv.v:85]
+WARNING: [Synth 8-6014] Unused sequential element Timer/counter/counter_reg was removed.  [F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.srcs/sources_1/new/counter.v:9]
+INFO: [Synth 8-3886] merging instance 'bus/UART/u_uart_recv/clk_cnt_reg[14]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3886] merging instance 'bus/UART/u_uart_recv/clk_cnt_reg[15]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3886] merging instance 'bus/UART/u_uart_recv/clk_cnt_reg[13]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3886] merging instance 'bus/UART/u_uart_recv/clk_cnt_reg[12]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3886] merging instance 'bus/UART/u_uart_recv/clk_cnt_reg[11]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3886] merging instance 'bus/UART/u_uart_recv/clk_cnt_reg[10]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3886] merging instance 'bus/UART_bt/u_uart_recv/clk_cnt_reg[14]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3886] merging instance 'bus/UART_bt/u_uart_recv/clk_cnt_reg[15]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3886] merging instance 'bus/UART_bt/u_uart_send/clk_cnt_reg[14]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3886] merging instance 'bus/UART_bt/u_uart_send/clk_cnt_reg[15]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3886] merging instance 'bus/UART/u_uart_send/clk_cnt_reg[14]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3886] merging instance 'bus/UART/u_uart_send/clk_cnt_reg[15]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3886] merging instance 'bus/UART/u_uart_send/clk_cnt_reg[13]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3886] merging instance 'bus/UART/u_uart_send/clk_cnt_reg[12]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3886] merging instance 'bus/UART/u_uart_send/clk_cnt_reg[11]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3886] merging instance 'bus/UART/u_uart_send/clk_cnt_reg[10]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3886] merging instance 'bus/Switch/output_buf/buff_reg[8]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3886] merging instance 'bus/UART/output_buf/buff_reg[8]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3886] merging instance 'bus/UART_bt/output_buf/buff_reg[8]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3886] merging instance 'bus/Switch/output_buf/buff_reg[12]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3886] merging instance 'bus/UART/output_buf/buff_reg[12]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3886] merging instance 'bus/UART_bt/output_buf/buff_reg[12]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3886] merging instance 'bus/Switch/output_buf/buff_reg[9]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3886] merging instance 'bus/UART/output_buf/buff_reg[9]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3886] merging instance 'bus/UART_bt/output_buf/buff_reg[9]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3886] merging instance 'bus/Switch/output_buf/buff_reg[13]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3886] merging instance 'bus/UART/output_buf/buff_reg[13]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3886] merging instance 'bus/UART_bt/output_buf/buff_reg[13]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3886] merging instance 'bus/Switch/output_buf/buff_reg[10]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3886] merging instance 'bus/UART/output_buf/buff_reg[10]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3886] merging instance 'bus/UART_bt/output_buf/buff_reg[10]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3886] merging instance 'bus/Switch/output_buf/buff_reg[14]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3886] merging instance 'bus/UART/output_buf/buff_reg[14]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3886] merging instance 'bus/UART_bt/output_buf/buff_reg[14]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3886] merging instance 'bus/Switch/output_buf/buff_reg[11]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3886] merging instance 'bus/UART/output_buf/buff_reg[11]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3886] merging instance 'bus/UART_bt/output_buf/buff_reg[11]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3886] merging instance 'bus/Switch/output_buf/buff_reg[15]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3886] merging instance 'bus/UART/output_buf/buff_reg[15]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\bus/UART_bt/output_buf/buff_reg[15] )
+WARNING: [Synth 8-3332] Sequential element (cpu/Id/Reg/rf_reg[0][15]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (cpu/Id/Reg/rf_reg[0][14]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (cpu/Id/Reg/rf_reg[0][13]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (cpu/Id/Reg/rf_reg[0][12]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (cpu/Id/Reg/rf_reg[0][11]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (cpu/Id/Reg/rf_reg[0][10]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (cpu/Id/Reg/rf_reg[0][9]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (cpu/Id/Reg/rf_reg[0][8]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (cpu/Id/Reg/rf_reg[0][7]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (cpu/Id/Reg/rf_reg[0][6]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (cpu/Id/Reg/rf_reg[0][5]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (cpu/Id/Reg/rf_reg[0][4]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (cpu/Id/Reg/rf_reg[0][3]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (cpu/Id/Reg/rf_reg[0][2]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (cpu/Id/Reg/rf_reg[0][1]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (cpu/Id/Reg/rf_reg[0][0]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Led/input_buf/buff_reg[15]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Led/input_buf/buff_reg[14]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Led/input_buf/buff_reg[13]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Led/input_buf/buff_reg[12]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Led/input_buf/buff_reg[11]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Led/input_buf/buff_reg[10]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Led/input_buf/buff_reg[9]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Led/input_buf/buff_reg[8]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/UART/input_buf/buff_reg[15]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/UART/input_buf/buff_reg[14]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/UART/input_buf/buff_reg[13]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/UART/input_buf/buff_reg[12]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/UART/input_buf/buff_reg[11]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/UART/input_buf/buff_reg[10]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/UART/input_buf/buff_reg[9]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/UART/input_buf/buff_reg[8]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/UART_bt/input_buf/buff_reg[15]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/UART_bt/input_buf/buff_reg[14]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/UART_bt/input_buf/buff_reg[13]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/UART_bt/input_buf/buff_reg[12]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/UART_bt/input_buf/buff_reg[11]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/UART_bt/input_buf/buff_reg[10]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/UART_bt/input_buf/buff_reg[9]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/UART_bt/input_buf/buff_reg[8]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/input_buf/buff_reg[15]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/input_buf/buff_reg[14]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/input_buf/buff_reg[13]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/input_buf/buff_reg[12]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/input_buf/buff_reg[11]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/input_buf/buff_reg[10]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/input_buf/buff_reg[9]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/input_buf/buff_reg[8]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/input_buf/buff_reg[7]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/input_buf/buff_reg[6]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/input_buf/buff_reg[5]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/input_buf/buff_reg[4]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/input_buf/buff_reg[3]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/input_buf/buff_reg[2]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/input_buf/buff_reg[1]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/input_buf/buff_reg[0]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/counter/counter_reg[0]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/counter/counter_reg[1]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/counter/counter_reg[2]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/counter/counter_reg[3]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/counter/counter_reg[4]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/counter/counter_reg[5]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/counter/counter_reg[6]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/counter/counter_reg[7]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/counter/counter_reg[8]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/counter/counter_reg[9]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/counter/counter_reg[10]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/counter/counter_reg[11]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/counter/counter_reg[12]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/counter/counter_reg[13]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/counter/counter_reg[14]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/counter/counter_reg[15]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/counter/counter_reg[16]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/counter/counter_reg[17]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/counter/counter_reg[18]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/counter/counter_reg[19]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/counter/counter_reg[20]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/counter/counter_reg[21]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/counter/counter_reg[22]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/counter/counter_reg[23]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/counter/counter_reg[24]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/Timer/counter/counter_reg[25]) is unused and will be removed from module top.
+WARNING: [Synth 8-3332] Sequential element (bus/UART_bt/output_buf/buff_reg[15]) is unused and will be removed from module top.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:57 ; elapsed = 00:01:00 . Memory (MB): peak = 760.777 ; gain = 514.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------+------------+---------------+----------------+
+|Module Name | RTL Object | Depth x Width | Implemented As | 
++------------+------------+---------------+----------------+
+|crtl        | IMMop      | 32x1          | LUT            | 
+|crtl        | ALUop      | 32x3          | LUT            | 
+|CPU         | ctrl/IMMop | 32x1          | LUT            | 
+|CPU         | ctrl/ALUop | 32x3          | LUT            | 
++------------+------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:13 ; elapsed = 00:01:16 . Memory (MB): peak = 866.922 ; gain = 621.062
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:13 ; elapsed = 00:01:16 . Memory (MB): peak = 867.664 ; gain = 621.805
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:14 ; elapsed = 00:01:17 . Memory (MB): peak = 897.645 ; gain = 651.785
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3295] tying undriven pin i_16:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_17:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_18:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_19:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_20:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_21:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_22:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_23:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_24:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_25:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_26:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_27:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_28:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_29:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_30:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_31:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_48:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_49:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_50:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_51:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_52:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_53:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_54:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_55:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_56:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_57:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_58:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_59:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_60:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_61:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_62:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_63:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_96:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_97:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_98:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_99:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_100:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_101:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_102:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_103:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_104:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_105:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_106:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_107:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_108:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_109:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_110:a to constant 0
+WARNING: [Synth 8-3295] tying undriven pin i_111:a to constant 0
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:16 ; elapsed = 00:01:19 . Memory (MB): peak = 897.645 ; gain = 651.785
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:16 ; elapsed = 00:01:19 . Memory (MB): peak = 897.645 ; gain = 651.785
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:16 ; elapsed = 00:01:19 . Memory (MB): peak = 897.645 ; gain = 651.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:16 ; elapsed = 00:01:19 . Memory (MB): peak = 897.645 ; gain = 651.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:16 ; elapsed = 00:01:19 . Memory (MB): peak = 897.645 ; gain = 651.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:16 ; elapsed = 00:01:19 . Memory (MB): peak = 897.645 ; gain = 651.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |inst_mem      |         1|
+|2     |data_mem      |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |data_mem |     1|
+|2     |inst_mem |     1|
+|3     |BUFG     |     1|
+|4     |CARRY4   |    29|
+|5     |LUT1     |    26|
+|6     |LUT2     |   105|
+|7     |LUT3     |    88|
+|8     |LUT4     |   107|
+|9     |LUT5     |   127|
+|10    |LUT6     |   274|
+|11    |MUXF7    |    25|
+|12    |FDCE     |   362|
+|13    |FDPE     |    18|
+|14    |FDRE     |     2|
+|15    |IBUF     |    12|
+|16    |OBUF     |    34|
++------+---------+------+
+
+Report Instance Areas: 
++------+------------------+--------------------------+------+
+|      |Instance          |Module                    |Cells |
++------+------------------+--------------------------+------+
+|1     |top               |                          |  1242|
+|2     |  bus             |BUS                       |   886|
+|3     |    Led           |LED                       |     9|
+|4     |      input_buf   |Buffer_4                  |     9|
+|5     |    Switch        |Switch                    |     8|
+|6     |      output_buf  |Buffer_3                  |     8|
+|7     |    Tube          |Tube                      |   243|
+|8     |      inctrl_tube |InCtrl_tube               |   243|
+|9     |    UART          |UART                      |   181|
+|10    |      input_buf   |Buffer_1                  |     9|
+|11    |      output_buf  |Buffer_2                  |    16|
+|12    |      u_uart_recv |uart_recv                 |    93|
+|13    |      u_uart_send |uart_send                 |    63|
+|14    |    UART_bt       |UART__parameterized0      |   248|
+|15    |      input_buf   |Buffer                    |     9|
+|16    |      output_buf  |Buffer_0                  |    40|
+|17    |      u_uart_recv |uart_recv__parameterized0 |   123|
+|18    |      u_uart_send |uart_send__parameterized0 |    76|
+|19    |    deviceCLK     |deviceclk                 |    36|
+|20    |    ram           |RAM                       |    63|
+|21    |  cpu             |CPU                       |   309|
+|22    |    Ex            |EX                        |     8|
+|23    |      alu         |ALU                       |     4|
+|24    |      cmp         |CMP                       |     4|
+|25    |    Id            |ID                        |   277|
+|26    |      Reg         |REG                       |   277|
+|27    |    If            |IF                        |    24|
++------+------------------+--------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:16 ; elapsed = 00:01:19 . Memory (MB): peak = 897.645 ; gain = 651.785
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 149 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:54 ; elapsed = 00:01:07 . Memory (MB): peak = 897.645 ; gain = 286.191
+Synthesis Optimization Complete : Time (s): cpu = 00:01:16 ; elapsed = 00:01:19 . Memory (MB): peak = 897.645 ; gain = 651.785
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 66 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+130 Infos, 256 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:19 ; elapsed = 00:01:24 . Memory (MB): peak = 897.645 ; gain = 663.301
+INFO: [Common 17-1381] The checkpoint 'F:/Study/digit_circuit/cpu_design/cpu6_4/cpu6_4.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.084 . Memory (MB): peak = 897.645 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 25 15:44:23 2023...

@@ -1,0 +1,96 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed Oct 25 14:59:50 2023
+| Host         : DESKTOP-0TSH46O running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7z020
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    30 |
+| Unused register locations in slices containing registers |    66 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               2 |            1 |
+| No           | No                    | Yes                    |             143 |           52 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |             237 |           82 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-----------------------------+---------------------------------------------------------------------------------------------------+------------------------------------------+------------------+----------------+
+|         Clock Signal        |                                           Enable Signal                                           |             Set/Reset Signal             | Slice Load Count | Bel Load Count |
++-----------------------------+---------------------------------------------------------------------------------------------------+------------------------------------------+------------------+----------------+
+|  clk_IBUF_BUFG              | bus/uart/u_uart_send/uart_txd_i_1_n_0                                                             | bus/uart_bt/u_uart_send/tx_cnt_reg[3]_0  |                1 |              1 |
+|  clk_IBUF_BUFG              | bus/uart_bt/u_uart_send/uart_txd_i_1__0_n_0                                                       | bus/uart_bt/u_uart_send/tx_cnt_reg[3]_0  |                1 |              1 |
+|  clk_IBUF_BUFG              |                                                                                                   |                                          |                1 |              2 |
+|  clk_IBUF_BUFG              | bus/uart/u_uart_recv/rx_cnt[3]_i_1__0_n_0                                                         | bus/uart_bt/u_uart_recv/clk_cnt_reg[0]_0 |                1 |              4 |
+|  clk_IBUF_BUFG              | bus/uart/u_uart_send/tx_cnt[3]_i_1_n_0                                                            | bus/tube/inctrl_tube/statu_reg[7]_0      |                2 |              4 |
+|  clk_IBUF_BUFG              | bus/uart_bt/u_uart_recv/rx_cnt[3]_i_1_n_0                                                         | bus/uart_bt/u_uart_recv/clk_cnt_reg[0]_0 |                1 |              4 |
+|  clk_IBUF_BUFG              | bus/uart_bt/u_uart_send/tx_cnt[3]_i_1__0_n_0                                                      | bus/uart_bt/u_uart_send/tx_cnt_reg[3]_0  |                1 |              4 |
+|  clk_IBUF_BUFG              | cpu/If/buff_reg[7][0]                                                                             | bus/tube/inctrl_tube/statu_reg[7]_0      |                2 |              8 |
+|  clk_IBUF_BUFG              | cpu/If/uart_en_d0_reg[0]                                                                          | bus/tube/inctrl_tube/statu_reg[7]_0      |                2 |              8 |
+|  clk_IBUF_BUFG              | cpu/If/uart_en_d0_reg_0[0]                                                                        | bus/tube/inctrl_tube/statu_reg[7]_0      |                3 |              8 |
+|  bus/deviceCLK/statu_reg[7] |                                                                                                   | bus/tube/inctrl_tube/statu_reg[7]_0      |                3 |              9 |
+|  clk_IBUF_BUFG              | bus/uart/u_uart_send/tx_data[7]_i_1_n_0                                                           | bus/tube/inctrl_tube/statu_reg[7]_0      |                2 |              9 |
+|  clk_IBUF_BUFG              | bus/uart_bt/u_uart_send/tx_data[7]_i_1__0_n_0                                                     | bus/uart_bt/u_uart_send/tx_cnt_reg[3]_0  |                2 |              9 |
+|  clk_IBUF_BUFG              |                                                                                                   | bus/uart_bt/u_uart_send/tx_cnt_reg[3]_0  |                5 |             14 |
+|  clk_IBUF_BUFG              | bus/uart_bt/u_uart_recv/pc_reg[0][0]                                                              | bus/uart_bt/u_uart_recv/clk_cnt_reg[0]_0 |                6 |             16 |
+|  clk_IBUF_BUFG              | cpu/If/E[0]                                                                                       | cpu/Id/Reg/rf[6][15]_i_3_n_0             |               10 |             16 |
+|  clk_IBUF_BUFG              | cpu/If/rf_reg[3][0][0]                                                                            | cpu/Id/Reg/rf[6][15]_i_3_n_0             |                6 |             16 |
+|  clk_IBUF_BUFG              | cpu/If/rf_reg[5][0][0]                                                                            | cpu/Id/Reg/rf[6][15]_i_3_n_0             |                6 |             16 |
+|  clk_IBUF_BUFG              | cpu/If/rf_reg[4][0][0]                                                                            | cpu/Id/Reg/rf[6][15]_i_3_n_0             |                3 |             16 |
+|  clk_IBUF_BUFG              | cpu/If/rf_reg[7][0]_0[0]                                                                          | cpu/Id/Reg/rf[6][15]_i_3_n_0             |               11 |             16 |
+|  clk_IBUF_BUFG              | cpu/If/rf_reg[1][0][0]                                                                            | cpu/Id/Reg/rf[6][15]_i_3_n_0             |                4 |             16 |
+|  clk_IBUF_BUFG              | cpu/If/rf_reg[2][0][0]                                                                            | cpu/Id/Reg/rf[6][15]_i_3_n_0             |                5 |             16 |
+|  clk_IBUF_BUFG              | cpu/If/byte_flag_reg[0]                                                                           | bus/tube/inctrl_tube/statu_reg[7]_0      |                4 |             17 |
+|  clk_IBUF_BUFG              | cpu/If/data_reg[0][0]                                                                             | bus/tube/inctrl_tube/statu_reg[7]_0      |                9 |             32 |
+|  clk_IBUF_BUFG              |                                                                                                   | bus/tube/inctrl_tube/statu_reg[7]_0      |               14 |             40 |
+|  clk_IBUF_BUFG              | bus/ram/DataMem/U0/synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg_512_767_0_0_i_1_n_0  |                                          |               16 |             64 |
+|  clk_IBUF_BUFG              | bus/ram/DataMem/U0/synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg_256_511_0_0_i_1_n_0  |                                          |               16 |             64 |
+|  clk_IBUF_BUFG              | bus/ram/DataMem/U0/synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg_0_255_0_0_i_1_n_0    |                                          |               16 |             64 |
+|  clk_IBUF_BUFG              | bus/ram/DataMem/U0/synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg_768_1023_0_0_i_1_n_0 |                                          |               16 |             64 |
+|  clk_IBUF_BUFG              |                                                                                                   | bus/uart_bt/u_uart_recv/clk_cnt_reg[0]_0 |               30 |             80 |
++-----------------------------+---------------------------------------------------------------------------------------------------+------------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                     2 |
+| 2      |                     1 |
+| 4      |                     4 |
+| 8      |                     3 |
+| 9      |                     3 |
+| 14     |                     1 |
+| 16+    |                    16 |
++--------+-----------------------+
+
+

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Oct 28 23:56:39 2023
+# Process ID: 27256
+# Current directory: F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.runs/inst_mem_synth_1
+# Command line: vivado.exe -log inst_mem.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source inst_mem.tcl
+# Log file: F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.runs/inst_mem_synth_1/inst_mem.vds
+# Journal file: F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.runs/inst_mem_synth_1\vivado.jou
+#-----------------------------------------------------------
+source inst_mem.tcl -notrace

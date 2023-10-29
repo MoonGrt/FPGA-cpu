@@ -1,0 +1,37 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../cpu6_7.srcs/sources_1/ip/cpuclk" \
+"../../../../cpu6_7.srcs/sources_1/ip/data_mem/sim/data_mem.v" \
+"../../../../cpu6_7.srcs/sources_1/ip/inst_mem/sim/inst_mem.v" \
+"../../../../cpu6_7.srcs/sources_1/cpu/ALU.v" \
+"../../../../cpu6_7.srcs/sources_1/bus/BUS.v" \
+"../../../../cpu6_7.srcs/sources_1/bus/Buffer.v" \
+"../../../../cpu6_7.srcs/sources_1/cpu/CMP.v" \
+"../../../../cpu6_7.srcs/sources_1/cpu/EX.v" \
+"../../../../cpu6_7.srcs/sources_1/cpu/ID.v" \
+"../../../../cpu6_7.srcs/sources_1/cpu/IF.v" \
+"../../../../cpu6_7.srcs/sources_1/bus/Inctrl_led.v" \
+"../../../../cpu6_7.srcs/sources_1/bus/Inctrl_tube.v" \
+"../../../../cpu6_7.srcs/sources_1/bus/OutCtrl_Switch.v" \
+"../../../../cpu6_7.srcs/sources_1/bus/RAM.v" \
+"../../../../cpu6_7.srcs/sources_1/cpu/REG.v" \
+"../../../../cpu6_7.srcs/sources_1/bus/ROM.v" \
+"../../../../cpu6_7.srcs/sources_1/bus/Switch.v" \
+"../../../../cpu6_7.srcs/sources_1/bus/Timer.v" \
+"../../../../cpu6_7.srcs/sources_1/bus/UART.v" \
+"../../../../cpu6_7.srcs/sources_1/cpu/WB.v" \
+"../../../../cpu6_7.srcs/sources_1/bus/counter.v" \
+"../../../../cpu6_7.srcs/sources_1/cpu/cpu.v" \
+"../../../../cpu6_7.srcs/sources_1/cpu/crtl.v" \
+"../../../../cpu6_7.srcs/sources_1/bus/deviceclk.v" \
+"../../../../cpu6_7.srcs/sources_1/bus/digit_tube.v" \
+"../../../../cpu6_7.srcs/sources_1/bus/led.v" \
+"../../../../cpu6_7.srcs/sources_1/top.v" \
+"../../../../cpu6_7.srcs/sources_1/bus/uart_recv.v" \
+"../../../../cpu6_7.srcs/sources_1/bus/uart_send.v" \
+"../../../../cpu6_7.srcs/sim_1/sim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

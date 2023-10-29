@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1698507483">
+  <File Type="PA-TCL" Name="top.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="top_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="top_reports.tcl"/>
+  <File Type="RDS-RDS" Name="top.vds"/>
+  <File Type="RDS-UTIL" Name="top_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="top_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="top.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="top_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="top_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/para.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpu6_6/cpu6_6.srcs/sources_1/para.v"/>
+        <Attr Name="ImportTime" Val="1698382098"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/cpu/ALU.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpu6_6/cpu6_6.srcs/sources_1/cpu/ALU.v"/>
+        <Attr Name="ImportTime" Val="1698462967"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bus/BUS.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpu6_6/cpu6_6.srcs/sources_1/bus/BUS.v"/>
+        <Attr Name="ImportTime" Val="1698497948"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bus/Buffer.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpu6_6/cpu6_6.srcs/sources_1/bus/Buffer.v"/>
+        <Attr Name="ImportTime" Val="1695308569"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/cpu/CMP.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpu6_6/cpu6_6.srcs/sources_1/cpu/CMP.v"/>
+        <Attr Name="ImportTime" Val="1698462970"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/cpu/EX.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpu6_6/cpu6_6.srcs/sources_1/cpu/EX.v"/>
+        <Attr Name="ImportTime" Val="1698462984"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/cpu/ID.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpu6_6/cpu6_6.srcs/sources_1/cpu/ID.v"/>
+        <Attr Name="ImportTime" Val="1698137870"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/cpu/IF.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpu6_6/cpu6_6.srcs/sources_1/cpu/IF.v"/>
+        <Attr Name="ImportTime" Val="1698138597"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bus/Inctrl_led.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpu6_6/cpu6_6.srcs/sources_1/bus/Inctrl_led.v"/>
+        <Attr Name="ImportTime" Val="1695375569"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bus/Inctrl_tube.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpu6_6/cpu6_6.srcs/sources_1/bus/Inctrl_tube.v"/>
+        <Attr Name="ImportTime" Val="1698137564"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bus/OutCtrl_Switch.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpu6_6/cpu6_6.srcs/sources_1/bus/OutCtrl_Switch.v"/>
+        <Attr Name="ImportTime" Val="1695546180"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bus/RAM.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpu6_6/cpu6_6.srcs/sources_1/bus/RAM.v"/>
+        <Attr Name="ImportTime" Val="1698463103"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/cpu/REG.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpu6_6/cpu6_6.srcs/sources_1/cpu/REG.v"/>
+        <Attr Name="ImportTime" Val="1698462955"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bus/ROM.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bus/Switch.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpu6_6/cpu6_6.srcs/sources_1/bus/Switch.v"/>
+        <Attr Name="ImportTime" Val="1698463124"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bus/Timer.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpu6_6/cpu6_6.srcs/sources_1/bus/Timer.v"/>
+        <Attr Name="ImportTime" Val="1698463139"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bus/UART.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpu6_6/cpu6_6.srcs/sources_1/bus/UART.v"/>
+        <Attr Name="ImportTime" Val="1698497794"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/cpu/WB.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpu6_6/cpu6_6.srcs/sources_1/cpu/WB.v"/>
+        <Attr Name="ImportTime" Val="1698462976"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bus/counter.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpu6_6/cpu6_6.srcs/sources_1/bus/counter.v"/>
+        <Attr Name="ImportTime" Val="1698462783"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/cpu/cpu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpu6_6/cpu6_6.srcs/sources_1/cpu/cpu.v"/>
+        <Attr Name="ImportTime" Val="1698462925"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/cpu/crtl.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpu6_6/cpu6_6.srcs/sources_1/cpu/crtl.v"/>
+        <Attr Name="ImportTime" Val="1698462936"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bus/deviceclk.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpu6_6/cpu6_6.srcs/sources_1/bus/deviceclk.v"/>
+        <Attr Name="ImportTime" Val="1695301505"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bus/digit_tube.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpu6_6/cpu6_6.srcs/sources_1/bus/digit_tube.v"/>
+        <Attr Name="ImportTime" Val="1698463129"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bus/led.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpu6_6/cpu6_6.srcs/sources_1/bus/led.v"/>
+        <Attr Name="ImportTime" Val="1698463119"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bus/uart_recv.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpu6_6/cpu6_6.srcs/sources_1/bus/uart_recv.v"/>
+        <Attr Name="ImportTime" Val="1696937665"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bus/uart_send.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpu6_6/cpu6_6.srcs/sources_1/bus/uart_send.v"/>
+        <Attr Name="ImportTime" Val="1695309089"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpu6_6/cpu6_6.srcs/sources_1/top.v"/>
+        <Attr Name="ImportTime" Val="1698497939"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../whole.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../irq_bt1.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="top"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/xdc.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpu6_1/cpu6_1.srcs/constrs_1/new/xdc.xdc"/>
+        <Attr Name="ImportTime" Val="1695551746"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/xdc.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="data_mem"/>
+  <BlockFileSet Type="BlockSrcs" Name="inst_mem"/>
+</GenRun>

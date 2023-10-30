@@ -45,7 +45,9 @@
 
 ### 上手指南
 
-…………………………………………………………………………………………
+将比特流文件生成并烧录到fpga上，使用scrip文件夹中的脚本将code文件夹中程序传到fpga的cpu中。
+脚本使用：进入scrip文件夹后，打开cmd，运行-
+python uart_trans_inst.py COMx ..\code\xxx
 
 ###### 开发前的配置要求
 
@@ -57,6 +59,9 @@
 ```
 filetree 
 ├── README.md
+├── scrip
+│  ├── uart_trans_inst.py
+├── code
 ├── cpu6_6.srcs
 │  ├── sources_1
 │  │  ├── bus

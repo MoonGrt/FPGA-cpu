@@ -24,13 +24,13 @@ set_property IOSTANDARD LVCMOS33 [get_ports {led[7]}]
 
 # 8¸ö²¦Âë¿ª¹Ø
 set_property PACKAGE_PIN AB6 [get_ports {switch[0]}]
-set_property PACKAGE_PIN Y4 [get_ports {switch[1]}]
+set_property PACKAGE_PIN Y4  [get_ports {switch[1]}]
 set_property PACKAGE_PIN AA4 [get_ports {switch[2]}]
-set_property PACKAGE_PIN R6 [get_ports {switch[3]}]
-set_property PACKAGE_PIN T6 [get_ports {switch[4]}]
-set_property PACKAGE_PIN T4 [get_ports {switch[5]}]
-set_property PACKAGE_PIN U4 [get_ports {switch[6]}]
-set_property PACKAGE_PIN V5 [get_ports {switch[7]}]
+set_property PACKAGE_PIN R6  [get_ports {switch[3]}]
+set_property PACKAGE_PIN T6  [get_ports {switch[4]}]
+set_property PACKAGE_PIN T4  [get_ports {switch[5]}]
+set_property PACKAGE_PIN U4  [get_ports {switch[6]}]
+set_property PACKAGE_PIN V5  [get_ports {switch[7]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {switch[0]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {switch[1]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {switch[2]}]
@@ -73,6 +73,7 @@ set_property IOSTANDARD LVCMOS33 [get_ports {seg_led2[4]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {seg_led2[5]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {seg_led2[6]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {seg_led2[7]}]
+
 set_property PACKAGE_PIN M20 [get_ports {tube_en[0]}]
 set_property PACKAGE_PIN N19 [get_ports {tube_en[1]}]
 set_property PACKAGE_PIN N20 [get_ports {tube_en[2]}]
@@ -91,17 +92,17 @@ set_property IOSTANDARD LVCMOS33 [get_ports {tube_en[6]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {tube_en[7]}]
 
 # UART
-set_property PACKAGE_PIN T21 [get_ports uart_rxd]
-set_property PACKAGE_PIN T22 [get_ports uart_txd]
-set_property IOSTANDARD LVCMOS33 [get_ports uart_rxd]
-set_property IOSTANDARD LVCMOS33 [get_ports uart_txd]
-
-
-set_property IOSTANDARD LVCMOS33 [get_ports bt_rx]
-set_property IOSTANDARD LVCMOS33 [get_ports bt_tx]
-set_property IOSTANDARD LVCMOS33 [get_ports uart_rx]
-set_property IOSTANDARD LVCMOS33 [get_ports uart_tx]
-set_property PACKAGE_PIN AA13 [get_ports bt_tx]
 set_property PACKAGE_PIN T21 [get_ports uart_rx]
 set_property PACKAGE_PIN T22 [get_ports uart_tx]
-set_property PACKAGE_PIN Y13 [get_ports bt_rx]
+set_property IOSTANDARD LVCMOS33 [get_ports uart_rx]
+set_property IOSTANDARD LVCMOS33 [get_ports uart_tx]
+
+## UART_Debug
+#set_property PACKAGE_PIN T21 [get_ports uart_debug]
+#set_property IOSTANDARD LVCMOS33 [get_ports uart_debug]
+
+# BT
+set_property PACKAGE_PIN AA13 [get_ports bt_tx]
+set_property PACKAGE_PIN Y13  [get_ports bt_rx]
+set_property IOSTANDARD LVCMOS33 [get_ports bt_rx]
+set_property IOSTANDARD LVCMOS33 [get_ports bt_tx]

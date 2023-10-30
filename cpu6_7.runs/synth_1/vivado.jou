@@ -2,8 +2,8 @@
 # Vivado v2017.4 (64-bit)
 # SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
 # IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
-# Start of session at: Sat Oct 28 23:38:04 2023
-# Process ID: 21704
+# Start of session at: Sun Oct 29 16:18:46 2023
+# Process ID: 9912
 # Current directory: F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.runs/synth_1
 # Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
 # Log file: F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.runs/synth_1/top.vds

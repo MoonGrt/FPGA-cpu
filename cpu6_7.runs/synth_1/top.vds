@@ -2,8 +2,8 @@
 # Vivado v2017.4 (64-bit)
 # SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
 # IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
-# Start of session at: Sat Oct 28 23:38:04 2023
-# Process ID: 21704
+# Start of session at: Sun Oct 29 16:18:46 2023
+# Process ID: 9912
 # Current directory: F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.runs/synth_1
 # Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
 # Log file: F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.runs/synth_1/top.vds
@@ -15,9 +15,9 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 2940 
+INFO: Helper process launched with PID 19116 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 344.082 ; gain = 98.141
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 343.922 ; gain = 98.004
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'top' [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/top.v:3]
 INFO: [Synth 8-638] synthesizing module 'CPU' [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/cpu/cpu.v:3]
@@ -44,15 +44,15 @@ INFO: [Synth 8-638] synthesizing module 'deviceclk' [F:/Study/digit_circuit/cpu_
 	Parameter EXTEND bound to: 150000 - type: integer 
 INFO: [Synth 8-256] done synthesizing module 'deviceclk' (10#1) [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/bus/deviceclk.v:6]
 INFO: [Synth 8-638] synthesizing module 'ROM' [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/bus/ROM.v:3]
-INFO: [Synth 8-638] synthesizing module 'inst_mem' [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.runs/synth_1/.Xil/Vivado-21704-DESKTOP-0TSH46O/realtime/inst_mem_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'inst_mem' (11#1) [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.runs/synth_1/.Xil/Vivado-21704-DESKTOP-0TSH46O/realtime/inst_mem_stub.v:6]
-WARNING: [Synth 8-689] width (16) of port connection 'a' does not match port width (10) of module 'inst_mem' [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/bus/ROM.v:114]
-WARNING: [Synth 8-5788] Register rom_data_reg in module ROM is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/bus/ROM.v:60]
-WARNING: [Synth 8-5788] Register data_r_reg in module ROM is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/bus/ROM.v:60]
+INFO: [Synth 8-638] synthesizing module 'inst_mem' [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.runs/synth_1/.Xil/Vivado-9912-DESKTOP-0TSH46O/realtime/inst_mem_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'inst_mem' (11#1) [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.runs/synth_1/.Xil/Vivado-9912-DESKTOP-0TSH46O/realtime/inst_mem_stub.v:6]
+WARNING: [Synth 8-689] width (16) of port connection 'a' does not match port width (10) of module 'inst_mem' [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/bus/ROM.v:77]
+WARNING: [Synth 8-5788] Register rom_data_reg in module ROM is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/bus/ROM.v:56]
+WARNING: [Synth 8-5788] Register data_r_reg in module ROM is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/bus/ROM.v:56]
 INFO: [Synth 8-256] done synthesizing module 'ROM' (12#1) [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/bus/ROM.v:3]
 INFO: [Synth 8-638] synthesizing module 'RAM' [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/bus/RAM.v:3]
-INFO: [Synth 8-638] synthesizing module 'data_mem' [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.runs/synth_1/.Xil/Vivado-21704-DESKTOP-0TSH46O/realtime/data_mem_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'data_mem' (13#1) [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.runs/synth_1/.Xil/Vivado-21704-DESKTOP-0TSH46O/realtime/data_mem_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'data_mem' [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.runs/synth_1/.Xil/Vivado-9912-DESKTOP-0TSH46O/realtime/data_mem_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'data_mem' (13#1) [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.runs/synth_1/.Xil/Vivado-9912-DESKTOP-0TSH46O/realtime/data_mem_stub.v:6]
 WARNING: [Synth 8-689] width (16) of port connection 'a' does not match port width (10) of module 'data_mem' [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/bus/RAM.v:49]
 INFO: [Synth 8-256] done synthesizing module 'RAM' (14#1) [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/bus/RAM.v:3]
 INFO: [Synth 8-638] synthesizing module 'LED' [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/bus/led.v:2]
@@ -212,7 +212,7 @@ WARNING: [Synth 8-3331] design UART has unconnected port addr[0]
 WARNING: [Synth 8-3331] design Tube has unconnected port addr[15]
 INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 396.047 ; gain = 150.105
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 395.652 ; gain = 149.734
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -222,22 +222,20 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 396.047 ; gain = 150.105
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 395.652 ; gain = 149.734
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7z020clg484-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.runs/synth_1/.Xil/Vivado-21704-DESKTOP-0TSH46O/dcp2/data_mem_in_context.xdc] for cell 'bus/ram/DataMem'
-Finished Parsing XDC File [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.runs/synth_1/.Xil/Vivado-21704-DESKTOP-0TSH46O/dcp2/data_mem_in_context.xdc] for cell 'bus/ram/DataMem'
-Parsing XDC File [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.runs/synth_1/.Xil/Vivado-21704-DESKTOP-0TSH46O/dcp3/inst_mem_in_context.xdc] for cell 'bus/rom/InstMem'
-Finished Parsing XDC File [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.runs/synth_1/.Xil/Vivado-21704-DESKTOP-0TSH46O/dcp3/inst_mem_in_context.xdc] for cell 'bus/rom/InstMem'
+Parsing XDC File [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.runs/synth_1/.Xil/Vivado-9912-DESKTOP-0TSH46O/dcp2/data_mem_in_context.xdc] for cell 'bus/ram/DataMem'
+Finished Parsing XDC File [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.runs/synth_1/.Xil/Vivado-9912-DESKTOP-0TSH46O/dcp2/data_mem_in_context.xdc] for cell 'bus/ram/DataMem'
+Parsing XDC File [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.runs/synth_1/.Xil/Vivado-9912-DESKTOP-0TSH46O/dcp3/inst_mem_in_context.xdc] for cell 'bus/rom/InstMem'
+Finished Parsing XDC File [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.runs/synth_1/.Xil/Vivado-9912-DESKTOP-0TSH46O/dcp3/inst_mem_in_context.xdc] for cell 'bus/rom/InstMem'
 Parsing XDC File [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/constrs_1/new/xdc.xdc]
-WARNING: [Vivado 12-584] No ports matched 'uart_rxd'. [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/constrs_1/new/xdc.xdc:94]
-WARNING: [Vivado 12-584] No ports matched 'uart_txd'. [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/constrs_1/new/xdc.xdc:95]
-WARNING: [Vivado 12-584] No ports matched 'uart_rxd'. [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/constrs_1/new/xdc.xdc:96]
-WARNING: [Vivado 12-584] No ports matched 'uart_txd'. [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/constrs_1/new/xdc.xdc:97]
+WARNING: [Vivado 12-584] No ports matched 'uart_debug'. [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/constrs_1/new/xdc.xdc:101]
+WARNING: [Vivado 12-584] No ports matched 'uart_debug'. [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/constrs_1/new/xdc.xdc:102]
 Finished Parsing XDC File [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/constrs_1/new/xdc.xdc]
 WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/constrs_1/new/xdc.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/top_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/constrs_1/new/xdc.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
@@ -247,16 +245,16 @@ Completed Processing XDC Constraints
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 762.277 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 761.707 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 762.277 ; gain = 516.336
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 761.707 ; gain = 515.789
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg484-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 762.277 ; gain = 516.336
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 761.707 ; gain = 515.789
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -264,7 +262,7 @@ Start Applying 'set_property' XDC Constraints
 Applied set_property DONT_TOUCH = true for bus/ram/DataMem. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for bus/rom/InstMem. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 762.277 ; gain = 516.336
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 761.707 ; gain = 515.789
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5544] ROM "PCSel" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "PCSel" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
@@ -277,7 +275,7 @@ INFO: [Synth 8-5544] ROM "rf_reg[2]" won't be mapped to Block RAM because addres
 INFO: [Synth 8-5544] ROM "rf_reg[1]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "rf_reg[0]" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
 WARNING: [Synth 8-6014] Unused sequential element cnt_reg was removed.  [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/bus/deviceclk.v:15]
-WARNING: [Synth 8-6014] Unused sequential element addr_ireg_reg was removed.  [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/bus/ROM.v:49]
+WARNING: [Synth 8-6014] Unused sequential element addr_ireg_reg was removed.  [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/bus/ROM.v:45]
 INFO: [Synth 8-5546] ROM "tx_cnt" won't be mapped to RAM because it is too sparse
 WARNING: [Synth 8-6014] Unused sequential element tx_cnt_reg was removed.  [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/bus/uart_send.v:86]
 INFO: [Synth 8-5546] ROM "rx_cnt" won't be mapped to RAM because it is too sparse
@@ -291,7 +289,7 @@ WARNING: [Synth 8-6014] Unused sequential element rx_cnt_reg was removed.  [F:/S
 WARNING: [Synth 8-6014] Unused sequential element counter_reg was removed.  [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/bus/counter.v:9]
 INFO: [Synth 8-5544] ROM "MS" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 762.277 ; gain = 516.336
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 761.707 ; gain = 515.789
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -321,7 +319,6 @@ Detailed RTL Component Info :
 +---Muxes : 
 	   2 Input     16 Bit        Muxes := 7     
 	   4 Input     16 Bit        Muxes := 1     
-	   9 Input     16 Bit        Muxes := 2     
 	   2 Input     14 Bit        Muxes := 4     
 	   2 Input     10 Bit        Muxes := 4     
 	   2 Input      8 Bit        Muxes := 10    
@@ -329,7 +326,7 @@ Detailed RTL Component Info :
 	   7 Input      7 Bit        Muxes := 1     
 	   9 Input      4 Bit        Muxes := 1     
 	   2 Input      4 Bit        Muxes := 4     
-	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
 	   3 Input      2 Bit        Muxes := 1     
 	   2 Input      1 Bit        Muxes := 22    
 	  17 Input      1 Bit        Muxes := 6     
@@ -346,7 +343,7 @@ Hierarchical RTL Component report
 Module crtl 
 Detailed RTL Component Info : 
 +---Muxes : 
-	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
 	   2 Input      1 Bit        Muxes := 2     
 	  17 Input      1 Bit        Muxes := 6     
 Module IF 
@@ -365,7 +362,6 @@ Detailed RTL Component Info :
 +---Registers : 
 	               16 Bit    Registers := 8     
 +---Muxes : 
-	   9 Input     16 Bit        Muxes := 2     
 	   2 Input      1 Bit        Muxes := 8     
 Module ID 
 Detailed RTL Component Info : 
@@ -504,7 +500,7 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-6014] Unused sequential element deviceCLK/cnt_reg was removed.  [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/bus/deviceclk.v:15]
-WARNING: [Synth 8-6014] Unused sequential element rom/addr_ireg_reg was removed.  [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/bus/ROM.v:49]
+WARNING: [Synth 8-6014] Unused sequential element rom/addr_ireg_reg was removed.  [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/bus/ROM.v:45]
 WARNING: [Synth 8-6014] Unused sequential element UART/u_uart_send/tx_cnt_reg was removed.  [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/bus/uart_send.v:86]
 WARNING: [Synth 8-6014] Unused sequential element UART/u_uart_recv/rx_cnt_reg was removed.  [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/bus/uart_recv.v:85]
 WARNING: [Synth 8-6014] Unused sequential element UART_bt/u_uart_send/tx_cnt_reg was removed.  [F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/bus/uart_send.v:86]
@@ -550,22 +546,6 @@ INFO: [Synth 8-3886] merging instance 'bus/UART_bt/output_buf/buff_reg[11]' (FDC
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\bus/UART/output_buf/buff_reg[15] )
 INFO: [Synth 8-3886] merging instance 'bus/Switch/output_buf/buff_reg[15]' (FDC) to 'bus/UART_bt/output_buf/buff_reg[15]'
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\bus/UART_bt/output_buf/buff_reg[15] )
-WARNING: [Synth 8-3332] Sequential element (cpu/Id/Reg/rf_reg[0][15]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (cpu/Id/Reg/rf_reg[0][14]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (cpu/Id/Reg/rf_reg[0][13]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (cpu/Id/Reg/rf_reg[0][12]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (cpu/Id/Reg/rf_reg[0][11]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (cpu/Id/Reg/rf_reg[0][10]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (cpu/Id/Reg/rf_reg[0][9]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (cpu/Id/Reg/rf_reg[0][8]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (cpu/Id/Reg/rf_reg[0][7]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (cpu/Id/Reg/rf_reg[0][6]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (cpu/Id/Reg/rf_reg[0][5]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (cpu/Id/Reg/rf_reg[0][4]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (cpu/Id/Reg/rf_reg[0][3]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (cpu/Id/Reg/rf_reg[0][2]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (cpu/Id/Reg/rf_reg[0][1]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (cpu/Id/Reg/rf_reg[0][0]) is unused and will be removed from module top.
 WARNING: [Synth 8-3332] Sequential element (bus/Led/input_buf/buff_reg[15]) is unused and will be removed from module top.
 WARNING: [Synth 8-3332] Sequential element (bus/Led/input_buf/buff_reg[14]) is unused and will be removed from module top.
 WARNING: [Synth 8-3332] Sequential element (bus/Led/input_buf/buff_reg[13]) is unused and will be removed from module top.
@@ -635,7 +615,7 @@ WARNING: [Synth 8-3332] Sequential element (bus/Timer/counter/counter_reg[25]) i
 WARNING: [Synth 8-3332] Sequential element (bus/UART/output_buf/buff_reg[15]) is unused and will be removed from module top.
 WARNING: [Synth 8-3332] Sequential element (bus/UART_bt/output_buf/buff_reg[15]) is unused and will be removed from module top.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 762.277 ; gain = 516.336
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 791.262 ; gain = 545.344
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -664,13 +644,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 876.316 ; gain = 630.375
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 900.309 ; gain = 654.391
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 877.062 ; gain = 631.121
+Finished Timing Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 901.055 ; gain = 655.137
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -682,7 +662,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 908.410 ; gain = 662.469
+Finished Technology Mapping : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 935.367 ; gain = 689.449
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -754,7 +734,7 @@ WARNING: [Synth 8-3295] tying undriven pin i_125:a to constant 0
 WARNING: [Synth 8-3295] tying undriven pin i_126:a to constant 0
 WARNING: [Synth 8-3295] tying undriven pin i_127:a to constant 0
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 908.410 ; gain = 662.469
+Finished IO Insertion : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 935.367 ; gain = 689.449
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -767,7 +747,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 908.410 ; gain = 662.469
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 935.367 ; gain = 689.449
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -779,25 +759,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 908.410 ; gain = 662.469
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 935.367 ; gain = 689.449
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 908.410 ; gain = 662.469
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 935.367 ; gain = 689.449
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 908.410 ; gain = 662.469
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 935.367 ; gain = 689.449
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 908.410 ; gain = 662.469
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 935.367 ; gain = 689.449
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -819,17 +799,17 @@ Report Cell Usage:
 |2     |inst_mem |     1|
 |3     |BUFG     |     1|
 |4     |CARRY4   |    29|
-|5     |LUT1     |    24|
-|6     |LUT2     |   133|
-|7     |LUT3     |    93|
-|8     |LUT4     |   117|
-|9     |LUT5     |   119|
-|10    |LUT6     |   297|
-|11    |MUXF7    |    28|
-|12    |FDCE     |   374|
+|5     |LUT1     |    38|
+|6     |LUT2     |   146|
+|7     |LUT3     |   143|
+|8     |LUT4     |   112|
+|9     |LUT5     |    99|
+|10    |LUT6     |   302|
+|11    |MUXF7    |    13|
+|12    |FDCE     |   390|
 |13    |FDPE     |    18|
 |14    |FDRE     |    26|
-|15    |IBUF     |    13|
+|15    |IBUF     |    12|
 |16    |OBUF     |    34|
 +------+---------+------+
 
@@ -837,43 +817,43 @@ Report Instance Areas:
 +------+------------------+--------------------------+------+
 |      |Instance          |Module                    |Cells |
 +------+------------------+--------------------------+------+
-|1     |top               |                          |  1338|
-|2     |  bus             |BUS                       |   971|
+|1     |top               |                          |  1395|
+|2     |  bus             |BUS                       |   973|
 |3     |    Led           |LED                       |     8|
 |4     |      input_buf   |Buffer_4                  |     8|
 |5     |    Switch        |Switch                    |     8|
 |6     |      output_buf  |Buffer_3                  |     8|
 |7     |    Tube          |Tube                      |    93|
 |8     |      inctrl_tube |InCtrl_tube               |    93|
-|9     |    UART          |UART                      |   180|
+|9     |    UART          |UART                      |   183|
 |10    |      input_buf   |Buffer_1                  |     8|
 |11    |      output_buf  |Buffer_2                  |     8|
-|12    |      u_uart_recv |uart_recv                 |   100|
+|12    |      u_uart_recv |uart_recv                 |   103|
 |13    |      u_uart_send |uart_send                 |    64|
-|14    |    UART_bt       |UART__parameterized0      |   218|
+|14    |    UART_bt       |UART__parameterized0      |   230|
 |15    |      input_buf   |Buffer                    |     8|
-|16    |      output_buf  |Buffer_0                  |    26|
-|17    |      u_uart_recv |uart_recv__parameterized0 |   108|
+|16    |      output_buf  |Buffer_0                  |    32|
+|17    |      u_uart_recv |uart_recv__parameterized0 |   114|
 |18    |      u_uart_send |uart_send__parameterized0 |    76|
 |19    |    deviceCLK     |deviceclk                 |    38|
 |20    |    ram           |RAM                       |    24|
-|21    |    rom           |ROM                       |   402|
-|22    |  cpu             |CPU                       |   319|
-|23    |    Ex            |EX                        |     8|
-|24    |      alu         |ALU                       |     4|
+|21    |    rom           |ROM                       |   389|
+|22    |  cpu             |CPU                       |   375|
+|23    |    Ex            |EX                        |     9|
+|24    |      alu         |ALU                       |     5|
 |25    |      cmp         |CMP                       |     4|
-|26    |    Id            |ID                        |   287|
-|27    |      Reg         |REG                       |   287|
+|26    |    Id            |ID                        |   342|
+|27    |      Reg         |REG                       |   342|
 |28    |    If            |IF                        |    24|
 +------+------------------+--------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 908.410 ; gain = 662.469
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 935.367 ; gain = 689.449
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 152 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:29 . Memory (MB): peak = 908.410 ; gain = 296.238
-Synthesis Optimization Complete : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 908.410 ; gain = 662.469
+Synthesis finished with 0 errors, 0 critical warnings and 136 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:31 . Memory (MB): peak = 935.367 ; gain = 323.395
+Synthesis Optimization Complete : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 935.367 ; gain = 689.449
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 70 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 54 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
@@ -881,10 +861,10 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-132 Infos, 262 Warnings, 0 Critical Warnings and 0 Errors encountered.
+132 Infos, 244 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:38 . Memory (MB): peak = 908.410 ; gain = 673.980
+synth_design: Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 935.367 ; gain = 700.938
 INFO: [Common 17-1381] The checkpoint 'F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.runs/synth_1/top.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 908.410 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Sat Oct 28 23:38:45 2023...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 935.367 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun Oct 29 16:19:30 2023...

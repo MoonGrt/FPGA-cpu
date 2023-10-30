@@ -30,7 +30,7 @@ always @(*) begin
         8'b0000_0001: // timer
             npc = 8'd0;
         8'b0000_0010: // uart
-            npc = 8'd5;
+            npc = 8'd0;
         8'b0000_0100: // bt
             npc = 8'd5;
         default:

@@ -15,14 +15,15 @@ module top(
     input  wire         uart_rx,              //UART接收端口
     output wire         uart_tx,              //UART发送端口
     input  wire         bt_rx,  
-    output wire         bt_tx,
+    output wire         bt_tx
     
-    input wire          uart_debug
+//    input wire          uart_debug
 );
 
 /***************************************************************
                         时钟信号
 ****************************************************************/
+
 // 系统时钟分频，但好像不用，能直接跑100mhz
 //wire clk_25;
 //cpuclk cpuClk (
@@ -44,10 +45,11 @@ wire [7:0]      irq;
 wire            irq_uart;
 wire            irq_bt;
 wire            irq_timer;
-
+wire            uart_debug;
 assign mem_rd  = mem_data;
 assign mem_data = (mem_ctrl) ? mem_wd : 32'hzzzzzzzz; // 写入时才接入输入
 assign irq = {{5{1'b0}},irq_bt,irq_uart,irq_timer};
+assign uart_debug = switch[7];
 
 CPU cpu (
     .clk(clk),

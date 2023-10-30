@@ -3,7 +3,7 @@
 Dec 15 2017
 21:07:18
 F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
-F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sim_1/sim.v,1698501563,verilog,,,,sim,,,../../../../cpu6_7.srcs/sources_1/ip/cpuclk,,,,,
+F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sim_1/sim.v,1698572376,verilog,,,,sim,,,../../../../cpu6_7.srcs/sources_1/ip/cpuclk,,,,,
 F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/bus/BUS.v,1698508126,verilog,,F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/bus/Buffer.v,,BUS,,,../../../../cpu6_7.srcs/sources_1/ip/cpuclk,,,,,
 F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/bus/Buffer.v,1695308569,verilog,,F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/cpu/CMP.v,,Buffer,,,../../../../cpu6_7.srcs/sources_1/ip/cpuclk,,,,,
 F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/bus/Inctrl_led.v,1695375569,verilog,,F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/bus/Inctrl_tube.v,,InCtrl_led,,,../../../../cpu6_7.srcs/sources_1/ip/cpuclk,,,,,
@@ -24,7 +24,7 @@ F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/cpu/ALU.v,1698506
 F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/cpu/CMP.v,1698462970,verilog,,F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/cpu/EX.v,F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/para.v,CMP,,,../../../../cpu6_7.srcs/sources_1/ip/cpuclk,,,,,
 F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/cpu/EX.v,1698462984,verilog,,F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/cpu/ID.v,F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/para.v,EX,,,../../../../cpu6_7.srcs/sources_1/ip/cpuclk,,,,,
 F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/cpu/ID.v,1698137870,verilog,,F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/cpu/IF.v,,ID,,,../../../../cpu6_7.srcs/sources_1/ip/cpuclk,,,,,
-F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/cpu/IF.v,1698506824,verilog,,F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/bus/Inctrl_led.v,,IF,,,../../../../cpu6_7.srcs/sources_1/ip/cpuclk,,,,,
+F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/cpu/IF.v,1698567504,verilog,,F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/bus/Inctrl_led.v,,IF,,,../../../../cpu6_7.srcs/sources_1/ip/cpuclk,,,,,
 F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/cpu/REG.v,1698508965,verilog,,F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/bus/ROM.v,F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/para.v,REG,,,../../../../cpu6_7.srcs/sources_1/ip/cpuclk,,,,,
 F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/cpu/WB.v,1698462976,verilog,,F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/bus/counter.v,,WB,,,../../../../cpu6_7.srcs/sources_1/ip/cpuclk,,,,,
 F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/cpu/cpu.v,1698506403,verilog,,F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/cpu/crtl.v,F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/para.v,CPU,,,../../../../cpu6_7.srcs/sources_1/ip/cpuclk,,,,,
@@ -32,4 +32,4 @@ F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/cpu/crtl.v,169850
 F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/ip/data_mem/sim/data_mem.v,1695304786,verilog,,F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/ip/inst_mem/sim/inst_mem.v,,data_mem,,,../../../../cpu6_7.srcs/sources_1/ip/cpuclk,,,,,
 F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/ip/inst_mem/sim/inst_mem.v,1698508598,verilog,,F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/cpu/ALU.v,,inst_mem,,,../../../../cpu6_7.srcs/sources_1/ip/cpuclk,,,,,
 F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/para.v,1698382098,verilog,,,,,,,,,,,,
-F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/top.v,1698498150,verilog,,F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/bus/uart_recv.v,F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/para.v,top,,,../../../../cpu6_7.srcs/sources_1/ip/cpuclk,,,,,
+F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/top.v,1698566722,verilog,,F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/bus/uart_recv.v,F:/Study/digit_circuit/cpu_design/cpu6_7/cpu6_7.srcs/sources_1/para.v,top,,,../../../../cpu6_7.srcs/sources_1/ip/cpuclk,,,,,

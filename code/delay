@@ -1,0 +1,6 @@
+Address     Code        Basic                        Line Source
+
+0x00400000  0x00a00513  addi x10,x0,10               5        li a0, 10      # 例如，延时100,000个时钟周期
+0x00400004  0xfff50513  addi x10,x10,0xffffffff      11       addi a0, a0, -1    # 减少计数器
+0x00400008  0xfe051ee3  bne x10,x0,0xfffffffc        12       bnez a0, delay  # 如果计数器不为零，继续循环
+0x0040000c  0x08000593  addi x11,x0,0x00000080       15       addi a1, zero, 0x80
